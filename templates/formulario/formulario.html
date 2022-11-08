@@ -1,0 +1,15 @@
+<form action="{% url 'success' %}" method="GET">
+    <h3>Formulario de Contacto</h3>
+
+    <label>Nombre: </label>
+    <input type="text" name="name" placeholder="Escribe tu nombre..."
+    required autocomplete="off" onkeypress="return (event.charCode >= 65 && event.charCode <= 90 || event.charCode >= 97 && event.charCode <= 122 )" min="1">
+
+    <label>Apellido: </label>
+    <input type="text" name="lastname" placeholder="Escribe tu apellido..." required autocomplete="off" onkeypress="return (event.charCode >= 65 && event.charCode <= 90 || event.charCode >= 97 && event.charCode <= 122 )" min="1">
+
+    <label>Email: </label>
+    <input type="email" name="email" placeholder="Ejemplo: usuario@email.com">
+
+    <input type="submit" value="enviar">
+</form>
