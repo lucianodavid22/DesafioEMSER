@@ -7,9 +7,29 @@
     <title>Form</title>
 </head>
 <body>
-    <h1>Form</h1>
+    <main>
+        <h1>FORMULARIO</h1>
+        
+        {% include 'formulario/formulario.html' %}
+        
+    </main>
+    <section>
+        <table class="default">
 
-    {% include 'formulario/formulario.html' %}
-    
+            {% for user in users %}
+                <tr>
+            
+                <td>{{ user.nombre }}</td>
+            
+                <td>{{ user.apellido}}</td>
+            
+                <td>{{ user.email }}</td>
+            
+                </tr>
+            
+            {% endfor %}
+          
+          </table>
+    </section>
 </body>
 </html>
