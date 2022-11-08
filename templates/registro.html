@@ -11,10 +11,20 @@
         <h1>FORMULARIO</h1>
         
         {% include 'formulario/formulario.html' %}
-        
+
     </main>
     <section>
         <table class="default">
+
+            <tr>
+            
+                <td>Nombre</td>
+            
+                <td>Apellido</td>
+            
+                <td>Email</td>
+            
+            </tr>
 
             {% for user in users %}
                 <tr>
