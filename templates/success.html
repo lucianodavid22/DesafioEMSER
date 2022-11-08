@@ -8,5 +8,9 @@
 </head>
 <body>
     <h1>Usuario {{name}} {{ lastname }} ( {{ email }} ) agregado exitosamente</h1>
+
+    <form action="{% url 'registro' %}">
+        <input type="submit" value="Volver">
+    </form>
 </body>
 </html>
