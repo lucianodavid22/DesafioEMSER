@@ -1,8 +1,8 @@
-# DesafioEMSER
+# Desafío EMSER
 Desarrollado con Python 3.11.0 y Django 4.0.4
 
 ## Introducción
-Este repositorio es una prueba técnica la cual consiste en desarrollar una página web que contenga un formulario donde se puedan cargar personas a una base de datos. Para este desafio se me fue requerido desarrollarlo en Python y Django, tecnologías las cuales desconocía, por lo que es mi primer aplicación web usando las mismas.
+Este repositorio es una prueba técnica la cual consiste en desarrollar una página web que contenga un formulario donde se puedan cargar personas a una base de datos. Para este desafio se me fue requerido desarrollar en Python y Django, tecnologías las cuales desconocía y debí de estudiarlas y aprenderlas en poco tiempo, por lo que es mi primer aplicación web usando las mismas.
 
 ## Instalación del proyecto
 Primero que nada debes tener instalado Python en su versión 3.11.0 y Django en su versión 4.0.4, luego debes copiar el siguiente comando en tu consola o terminal:
@@ -17,11 +17,7 @@ Una vez clonado el repositorio, usa el siguiente comando para levantar el servid
 python manage.py runserver
 ```
 
-En ese momento tendrás la aplicación corriendo en el puerto 8000:
-
-http://localhost:8000/
-
-pero para poder usar la aplicación deberás de ir a /form/registro/:
+En ese momento tendrás la aplicación corriendo en el puerto 8000, pero para poder usar la aplicación deberás de ir a /form/registro/:
 
 http://localhost:8000/form/registro/
 
