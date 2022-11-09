@@ -12,6 +12,6 @@ def success(request):
     lastname = request.POST['lastname']
     email = request.POST['email']
 
-    # Usuario.objects.create(nombre=name, apellido=lastname, email=email)
+    Usuario.objects.create(nombre=name, apellido=lastname, email=email)
 
     return render(request, 'success.html', {'name': name, 'lastname': lastname, 'email': email})
