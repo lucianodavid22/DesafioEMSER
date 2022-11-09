@@ -1,5 +1,5 @@
-<form action="{% url 'success' %}" method="GET">
-
+<form action="{% url 'success' %}" method="POST">
+    {% csrf_token %}
     <label>Nombre: </label>
     <input type="text" name="name" placeholder="Escribe tu nombre..."
     required autocomplete="off" onkeypress="return (event.charCode >= 65 && event.charCode <= 90 || event.charCode >= 97 && event.charCode <= 122 )" min="1">
@@ -11,5 +11,4 @@
     <input type="email" name="email" placeholder="usuario@ejemplo.com">
 
     <input type="submit" value="Cargar">
-
 </form>
