@@ -1,5 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3% 0%;
+}
+
+main > h1 {
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5% 22%;
+}
+
+label > input {
+    width: 60%;
+    /* padding-right: 10%; */
+}
+
+.submit-button {
+    margin: 2%;
+    padding: 2% 3%;
+    cursor: pointer;
+    border: none;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+section {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    background: rgba(50, 50, 50, 0.597);
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    background: white;
+}
+
+.title {
+    font-weight: 600;
+    background-color: rgb(208, 208, 208);
 }
