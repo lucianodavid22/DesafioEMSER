@@ -6,13 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'success.css' %}">
     <title>Form</title>
 </head>
 <body>
-    <h1>Usuario {{name}} {{ lastname }} ( {{ email }} ) agregado exitosamente</h1>
+    <h1>Usuario <span class="datos"> {{name}} {{ lastname }} ( {{ email }} )</span> agregado exitosamente</h1>
 
     <form action="{% url 'registro' %}">
-        <input type="submit" value="Volver">
+        <input type="submit" value="Volver" class="submit-button">
     </form>
 </body>
 </html>
